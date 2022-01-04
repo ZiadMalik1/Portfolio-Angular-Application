@@ -161,8 +161,8 @@ p, li, span, label, input, textarea{
 
     display: block;
     margin: 0 auto;
-    height: 250px;
-    width: 375px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
     border: 2px solid #c1c1c1;
 }
@@ -337,7 +337,7 @@ p, li, span, label, input, textarea{
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 800px){
     .intro-wrapper{
         grid-template-columns: 1fr;
         grid-template-areas: 
@@ -350,4 +350,19 @@ p, li, span, label, input, textarea{
     .right-column{
         justify-content: center;
     }
+}
+
+@media screen and (max-width: 400px){
+
+    #preview-shadow{
+        max-width: 280px;
+        height: 180px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    #preview{
+        width: 280px;
+    }
+
 }
